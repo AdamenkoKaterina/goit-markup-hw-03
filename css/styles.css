@@ -20,10 +20,6 @@
     list-style: none;
 }
 body {
-   width: 1200px;
-   padding-left: 15px;
-   padding-right: 15px;
-
     background-color: #fff;
     color: #757575;
     font-family: Roboto, sans-serif;
@@ -34,13 +30,16 @@ line-height: 1.7;
 letter-spacing: 0.03em;
 } 
 .page-header {
-    display: flex;
-}
+  
+   }
 .container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    width: 1200px;
-    outline: 2px solid red;
+   
+   /*background-color: yellow;*/
     }
  .logo {
      color: black;
@@ -62,7 +61,7 @@ ul {
     display: flex;
 }
 .site-nav .item {
-    display: block;
+    display: flex;
     padding-top: 32px;
     padding-bottom: 32px;
     background-color: rosybrown;
@@ -71,6 +70,7 @@ ul {
     margin-left: 50px;
   }
 .site-nav a{
+    display: flex;
  color:var(--black); 
  font-weight: 500;
 line-height: 1.14;
@@ -108,7 +108,12 @@ text-decoration: none;
 
 /* Title */
 .title {
-    outline: 2px solid red;
+   
+    }
+.hero {
+   margin-bottom: 94px;
+   text-align: center;
+background-color: var(--dark-background);
     }
 .main-title {
     margin-top: 0;
@@ -120,7 +125,7 @@ text-decoration: none;
 font-size: 44px;
 line-height: 1.36;
 letter-spacing: 0.06em;
-text-align: center;
+
 }
 .button {
     display: inline-block;
@@ -139,13 +144,25 @@ text-align: center;
 letter-spacing: 0.06em;
 }
 /*Принципы*/ /*Чем мы занимаемся*/ 
+.principlist p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  
+}
 .second-title {
+    margin-bottom: 50px;
   color: var(--black);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   }
+  
  .subtitle {
     text-transform: uppercase;
     color: var(--black);
@@ -162,8 +179,14 @@ letter-spacing: 0.06em;
 line-height: 1.19;
 text-align: center;
  }
+ .foto {
+     margin-top: 0;
+     margin-bottom: 30px;
+ }
  .text {
-     color: var(--text-color);
+     margin-top: 0;
+     margin-bottom: 30px;
+    color: var(--text-color);
         font-size: 16px;
     line-height: 1.18;
     text-align: center;
@@ -172,8 +195,11 @@ text-align: center;
 footer {
         background-color: var(--dark-background);
 }
+
 .logo-footer {
-    color: white;
+   
+    margin-bottom: 20px;
+   color: white;
     font-family: Raleway, cursive, sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -188,14 +214,16 @@ text-decoration: none;
     text-decoration: none; 
     font-style: normal;
 }
-  
-.contacts-mail, 
+ .contacts-mail, 
 .contacts-tel {
    color: rgba(255, 255, 255, 0.6); 
    text-decoration: none; 
    font-style: normal;
 }
-  
+.contacts-addres, .contacts-mail {
+    margin-top: 0;
+    margin-bottom: 9px;
+}
 
 /* ПОРТФОЛИО*/
 
