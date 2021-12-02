@@ -30,7 +30,7 @@ line-height: 1.7;
 letter-spacing: 0.03em;
 } 
 section {
-    padding-top: 94px;
+    padding-top: 0;
     padding-bottom: 94px;
 }
 .page-header {
@@ -181,11 +181,28 @@ h3 {
  }
  .principlist {
      display: flex;
- }
-
+     margin-left: 30px;
+    }
+.principlist-subtitle {
+    display: block;
+   }
+  .principlist .principlist-subtitle + .principlist-subtitle {
+    margin-left: 30px;
+   }
+.principlist .foto-list+.foto-list {
+    margin-left: 30px;
+}
 /*Наша команда*/
 .team {
     background-color: var(--light-background);
+}
+.team-list {
+    display: block;
+    b
+
+}
+.principlist .team-list+.team-list {
+    margin-left: 30px;
 }
  .title-people {
      color: var(--black);
@@ -202,6 +219,7 @@ text-align: center;
  .text {
      margin-top: 0;
      margin-bottom: 0px;
+     padding-bottom: 30px;
     color: var(--text-color);
         font-size: 16px;
     line-height: 1.18;
