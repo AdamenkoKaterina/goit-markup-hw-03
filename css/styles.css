@@ -19,6 +19,17 @@
     margin: 0;
     list-style: none;
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0)
+}
+
 body {
     background-color: #fff;
     color: #757575;
@@ -29,7 +40,7 @@ font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03em;
 } 
-section {
+.section {
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -170,8 +181,7 @@ letter-spacing: 0.06em;
 h3 {
     margin-top: 0;
     margin-bottom: 0px;
-    padding-bottom: 10px;
-  }
+}
 .second-title {
     margin-bottom: 50px;
   color: var(--black);
@@ -182,6 +192,7 @@ h3 {
   }
   
  .subtitle {
+     padding-bottom: 10px;
     text-transform: uppercase;
     color: var(--black);
     font-weight: 700;
@@ -202,19 +213,26 @@ h3 {
     margin-left: 30px;
 }
 /*Наша команда*/
-.team {
+img {
+display: block;
+max-width: 100%;
+height: auto;
+}
+.title-team {
     background-color: var(--light-background);
 }
 .team-list {
     display: block;
-    }
+        }
 .principlist .team-list+.team-list {
     margin-left: 30px;
 }
 .team {
-
+    padding: 30px 0;
+    background-color: var(--white);
 }
  .title-people {
+     margin-bottom: 10px;
      color: var(--black);
     font-weight: 500;
     font-size: 16px;
@@ -224,13 +242,11 @@ text-align: center;
  .foto {
      margin-top: 0;
      margin-bottom: 0px;
-     padding-bottom: 30px;
  }
  .text {
      margin-top: 0;
      margin-bottom: 0px;
-     padding-bottom: 30px;
-    color: var(--text-color);
+        color: var(--text-color);
         font-size: 16px;
     line-height: 1.18;
     text-align: center;
