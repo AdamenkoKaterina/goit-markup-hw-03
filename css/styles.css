@@ -193,7 +193,7 @@ h3 {
   }
   
  .subtitle {
-     padding-bottom: 10px;
+     margin-bottom: 10px;
     text-transform: uppercase;
     color: var(--black);
     font-weight: 700;
@@ -207,6 +207,7 @@ h3 {
     }
 .principlist-subtitle {
     display: block;
+    width: 270px;
        }
   .principlist .principlist-subtitle + .principlist-subtitle {
     margin-left: 30px;
@@ -275,18 +276,21 @@ text-decoration: none;
    color: #2196F3
   }
   .contacts-addres {
-      margin-bottom: 9px;
+    display: block;
+    margin-bottom: 9px;
     color: var(--white);
     text-decoration: none; 
     font-style: normal;
 }
  .contacts-mail, 
 .contacts-tel {
+   display: block;  
    color: rgba(255, 255, 255, 0.6); 
    text-decoration: none; 
    font-style: normal;
 }
 .contacts-mail {
+    display: block; 
     margin-bottom: 9px;
 }
 
@@ -302,6 +306,7 @@ text-decoration: none;
       }
 .filter-button {
 padding: 6px 22px;
+border: none;
 border-radius: 4px;
 
 font-family: Roboto;   
