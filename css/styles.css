@@ -132,7 +132,7 @@ text-decoration: none;
 
 /* Title */
 .title {
-   
+   padding-top: 0;
     }
 .hero {
    text-align: center;
@@ -183,7 +183,8 @@ h3 {
     margin-bottom: 0px;
 }
 .second-title {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
+  padding-top: 0;
   color: var(--black);
   font-weight: 700;
   font-size: 36px;
@@ -199,13 +200,14 @@ h3 {
     font-size: 14px;
     line-height: 1.14;
  }
+
  .principlist {
      display: flex;
-     margin-left: 30px;
+     
     }
 .principlist-subtitle {
     display: block;
-   }
+       }
   .principlist .principlist-subtitle + .principlist-subtitle {
     margin-left: 30px;
    }
@@ -253,14 +255,16 @@ text-align: center;
     }
 /* Footer */
 footer {
-    
-        background-color: var(--dark-background);
+            background-color: var(--dark-background);
+}
+.page-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .logo-footer {
     display: block;
-   padding-top: 60px;
-   padding-bottom: 20px;
-   color: white;
+    margin-bottom: 20px;
+    color: white;
     font-family: Raleway, cursive, sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -271,6 +275,7 @@ text-decoration: none;
    color: #2196F3
   }
   .contacts-addres {
+      margin-bottom: 9px;
     color: var(--white);
     text-decoration: none; 
     font-style: normal;
@@ -281,10 +286,10 @@ text-decoration: none;
    text-decoration: none; 
    font-style: normal;
 }
-
-.list-contacts { 
-   padding-bottom: 60px; 
+.contacts-mail {
+    margin-bottom: 9px;
 }
+
 /* ПОРТФОЛИО*/
 
 .filter {
